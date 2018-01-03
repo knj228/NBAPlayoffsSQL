@@ -1,0 +1,50 @@
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    div#wrapper {
+			width: 400px;
+		}
+
+		div#header {
+			background-image: url(media-queries-phone.jpg);
+			height: 93px;
+			position: relative;
+		}
+
+		div#content {
+			font-size: 140%;
+		}
+
+		#content {
+			float: none;
+			width: 100%;
+		}
+
+		#bar {
+			float:none;
+			width: auto;
+      margin-right: auto;
+      margin-left: auto;
+		}
+	}
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}

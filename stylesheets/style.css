@@ -1,0 +1,106 @@
+body {
+  background-image: url("../images/Blue.jpg");
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p{
+  font-family: fantasy;
+}
+
+a {
+    color: #FFFFFF;
+}
+a:visited {
+    color: ##C2E0FF;
+}
+a:hover {
+      color: #CCCCFF;
+}
+a:active {
+    color: #0000FF;
+}
+h1,h2,h3,h4{
+  font-family:fantasy;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+h2{
+  font-size: 32px;
+}
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+nav ul ul {
+      display: none;
+      position: absolute;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: auto;
+}
+
+#bar li {
+    float: left;
+}
+
+li li {
+  float: none;
+}
+a.nav:link, a.nav:visited {
+
+    float: none;
+    display: block;
+    width:415px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #80b3ff;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+a.nav:hover, a.nav:active {
+    background-color: #92dac6;
+}
+.textbox {
+    margin: 30px;
+    background-color:rgba(0,0,0,0.7);
+}
+
+#wrapper{
+  padding: 10px;
+  width: 100%;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+  background-color: #000000;
+}
+
+.textbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+table, th, td {
+     border: 1px solid white;
+}
